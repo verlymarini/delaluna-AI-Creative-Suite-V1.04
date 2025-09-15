@@ -17,7 +17,7 @@ const IdeaHeader: React.FC<IdeaHeaderProps> = ({
         O que vamos criar hoje?
       </h1>
       <p className="text-lg md:text-xl mb-8" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
-        Crie ideias virais e envolventes com inteligência artificial
+        Crie conteúdos virais e envolventes com inteligência artificial
       </p>
     </div>
   );
