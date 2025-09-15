@@ -22,7 +22,7 @@ const IdeaInput: React.FC<IdeaInputProps> = ({
           onChange={(e) => onContentTopicChange(e.target.value)}
           placeholder="Digite um tópico para começar a criar..."
           rows={4}
-          className="w-full px-6 py-4 text-lg rounded-2xl resize-none"
+          className="w-full px-6 py-4 text-sm rounded-2xl resize-none"
           style={{
             background: 'rgba(255, 255, 255, 0.1)',
             border: '1px solid rgba(255, 255, 255, 0.2)',
