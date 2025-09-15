@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #2E303D;
+  --bg-primary: #292B34;
   --text-primary: #ffffff;
   --text-featured: #F9E1FF;
   --pro-color-1: #8ABCE5;
@@ -49,48 +49,48 @@
   .btn {
     @apply inline-flex items-center justify-center px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-1;
     font-family: 'Cal Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: rgba(249, 225, 255, 0.2);
+    background: rgba(249, 225, 255, 0.3);
     color: #F9E1FF;
     border: none;
   }
   
   .btn-primary {
-    background: rgba(249, 225, 255, 0.2);
+    background: rgba(249, 225, 255, 0.3);
     color: #F9E1FF;
   }
   
   .btn-primary:hover {
-    background: rgba(249, 225, 255, 0.3);
+    background: rgba(249, 225, 255, 0.4);
     transform: translateY(-1px);
   }
   
   .btn-secondary {
-    background: rgba(249, 225, 255, 0.2);
+    background: rgba(249, 225, 255, 0.3);
     color: #F9E1FF;
   }
   
   .btn-secondary:hover {
-    background: rgba(249, 225, 255, 0.3);
+    background: rgba(249, 225, 255, 0.4);
     transform: translateY(-1px);
   }
   
   .btn-ghost {
-    background: rgba(249, 225, 255, 0.1);
+    background: rgba(249, 225, 255, 0.3);
     color: #F9E1FF;
   }
   
   .btn-ghost:hover {
-    background: rgba(249, 225, 255, 0.2);
+    background: rgba(249, 225, 255, 0.4);
     transform: translateY(-1px);
   }
   
   .btn-white {
-    background: rgba(249, 225, 255, 0.2);
+    background: rgba(249, 225, 255, 0.3);
     color: #F9E1FF;
   }
   
   .btn-white:hover {
-    background: rgba(249, 225, 255, 0.3);
+    background: rgba(249, 225, 255, 0.4);
     transform: translateY(-1px);
   }
   
@@ -291,7 +291,7 @@
   .pro-bg-circle {
     position: absolute;
     border-radius: 50%;
-    opacity: 0.25;
+    opacity: 0.12;
     pointer-events: none;
   }
   
@@ -318,39 +318,39 @@
   @keyframes floatInSpace {
     0% {
       transform: translate(0px, 0px) rotate(0deg) scale(1);
-      opacity: 0.25;
+      opacity: 0.12;
     }
     12.5% {
       transform: translate(15px, -10px) rotate(45deg) scale(1.02);
-      opacity: 0.3;
+      opacity: 0.15;
     }
     25% {
       transform: translate(25px, -20px) rotate(90deg) scale(1.03);
-      opacity: 0.28;
+      opacity: 0.13;
     }
     37.5% {
       transform: translate(20px, -25px) rotate(135deg) scale(1.01);
-      opacity: 0.32;
+      opacity: 0.14;
     }
     50% {
       transform: translate(-8px, -30px) rotate(180deg) scale(0.99);
-      opacity: 0.26;
+      opacity: 0.11;
     }
     62.5% {
       transform: translate(-20px, -15px) rotate(225deg) scale(0.98);
-      opacity: 0.29;
+      opacity: 0.13;
     }
     75% {
       transform: translate(-25px, 10px) rotate(270deg) scale(1.01);
-      opacity: 0.31;
+      opacity: 0.14;
     }
     87.5% {
       transform: translate(-10px, 18px) rotate(315deg) scale(1.02);
-      opacity: 0.27;
+      opacity: 0.12;
     }
     100% {
       transform: translate(0px, 0px) rotate(360deg) scale(1);
-      opacity: 0.25;
+      opacity: 0.12;
     }
   }
   

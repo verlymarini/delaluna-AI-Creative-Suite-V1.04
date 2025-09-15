@@ -232,7 +232,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user }) => {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden" style={{ backgroundColor: '#2E303D' }}>
+    <div className="min-h-screen relative overflow-hidden" style={{ backgroundColor: '#292B34' }}>
       {/* Pro Feature Background Circles */}
       <div className="pro-bg-circle pro-gradient-1" style={{ 
         width: '400px', 
