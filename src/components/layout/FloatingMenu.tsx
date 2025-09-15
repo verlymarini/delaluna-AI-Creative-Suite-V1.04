@@ -140,16 +140,16 @@ const FloatingMenu: React.FC<FloatingMenuProps> = ({
           onMouseEnter={() => setIsExpanded(true)}
           className="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300"
           style={{
-            background: 'rgba(138, 188, 229, 0.2)',
+            background: 'rgba(249, 225, 255, 0.2)',
             boxShadow: '0 4px 20px rgba(138, 188, 229, 0.3)',
             transform: isExpanded ? 'rotate(180deg)' : 'scale(1)',
             ...(isExpanded ? {} : { ':hover': { transform: 'scale(1.1)' } })
           }}
         >
           {isExpanded ? (
-            <ChevronUp className="w-5 h-5" style={{ color: '#8ABCE5' }} />
+            <ChevronUp className="w-5 h-5" style={{ color: '#F9E1FF' }} />
           ) : (
-            <Sparkles className="w-5 h-5" style={{ color: '#8ABCE5' }} />
+            <Sparkles className="w-5 h-5" style={{ color: '#F9E1FF' }} />
           )}
         </button>
       </div>

@@ -37,8 +37,8 @@ const IdeaInput: React.FC<IdeaInputProps> = ({
           disabled={isGenerating || !contentTopic}
           className="absolute bottom-4 right-4 px-6 py-2 rounded-xl font-medium transition-all duration-200 disabled:opacity-50 hover:bg-opacity-30"
           style={{
-            background: 'rgba(138, 188, 229, 0.2)',
-            color: '#8ABCE5',
+            background: 'rgba(249, 225, 255, 0.2)',
+            color: '#F9E1FF',
             border: 'none'
           }}
         >
