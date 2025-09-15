@@ -20,7 +20,7 @@ const IdeaInput: React.FC<IdeaInputProps> = ({
         <textarea
           value={contentTopic}
           onChange={(e) => onContentTopicChange(e.target.value)}
-          placeholder="Digite sua ideia para começar"
+          placeholder="Digite um tópico para começar a criar..."
           rows={4}
           className="w-full px-6 py-4 text-lg rounded-2xl resize-none"
           style={{
