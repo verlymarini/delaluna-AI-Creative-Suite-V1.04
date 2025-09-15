@@ -201,9 +201,9 @@
   }
   
   .status-warning {
-    background: rgba(252, 235, 0, 0.1);
-    color: var(--pro-color-5);
-    border: 1px solid rgba(252, 235, 0, 0.2);
+    background: rgba(252, 235, 0, 0.08);
+    color: rgba(252, 235, 0, 0.8);
+    border: 1px solid rgba(252, 235, 0, 0.15);
   }
   
   .status-error {
