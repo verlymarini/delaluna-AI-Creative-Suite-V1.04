@@ -79,6 +79,7 @@ export const getOpenRouterModel = async (selectedModel: string) => {
   
   // Map model IDs to OpenRouter paths
   const modelMap: Record<string, string> = {
+    'qwen/qwen3-235b-a22b:free': 'qwen/qwen3-235b-a22b:free',
     'deepseek-r1': 'deepseek/deepseek-r1-0528:free',
     'deepseek': 'deepseek/deepseek-chat',
     'claude-sonnet': 'anthropic/claude-3.5-sonnet',

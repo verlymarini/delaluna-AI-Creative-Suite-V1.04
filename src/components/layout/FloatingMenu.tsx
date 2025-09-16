@@ -41,6 +41,7 @@ const FloatingMenu: React.FC<FloatingMenuProps> = ({
     }
     
     const modelNames: Record<string, string> = {
+      'qwen/qwen3-235b-a22b:free': 'Qwen 3 235B',
       'deepseek-r1': 'DeepSeek R1',
       'deepseek': 'DeepSeek V3',
       'claude-sonnet': 'Claude Sonnet',
