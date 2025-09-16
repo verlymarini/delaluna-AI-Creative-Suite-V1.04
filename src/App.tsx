@@ -44,7 +44,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user }) => {
   const [activeTab, setActiveTab] = useState<'ideas' | 'scripts' | 'carousel' | 'planner' | 'insights' | 'characters'>('ideas');
   const [showModelSelection, setShowModelSelection] = useState(false);
   const [showApiKeys, setShowApiKeys] = useState(false);
-  const [selectedModel, setSelectedModel] = useState('qwen/qwen3-235b-a22b:free');
+  const [selectedModel, setSelectedModel] = useState('deepseek-r1');
   const [creatorType, setCreatorType] = useState<string>('influencer');
   
   // Persistent history state

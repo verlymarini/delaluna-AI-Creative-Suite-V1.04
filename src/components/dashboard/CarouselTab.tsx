@@ -44,6 +44,7 @@ const CarouselTab: React.FC<CarouselTabProps> = ({
     }
     
     const modelNames: Record<string, string> = {
+      'qwen/qwen3-235b-a22b:free': 'Qwen 3 235B Free',
       'deepseek-r1': 'DeepSeek R1 Free',
       'deepseek': 'DeepSeek Chat V3',
       'claude-sonnet': 'Claude Sonnet 4',
